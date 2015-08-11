@@ -1,5 +1,5 @@
 ### SHA-1 [![Build Status](https://travis-ci.org/da-an/SHA-1.svg?branch=master)](https://travis-ci.org/da-an/SHA-1)
-SHA-1 hash generator class written in c++ programming language. Licensed under the terms and conditions of the [ISC](https://en.wikipedia.org/wiki/ISC_license).
+SHA-1 hash generator class written in c++ programming language.</br>Licensed under the terms and conditions of the [ISC](https://en.wikipedia.org/wiki/ISC_license).
 #### Usage example
 ```cpp
 #include <iostream>

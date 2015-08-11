@@ -36,7 +36,7 @@ void SHA1::transform(byte* block_, std::array<uint, 5>& hash_)
 
 	for (int i = 0; i < 16; ++i)
 		word[i] = (block_[i * 4 + 0] << 24) | (block_[i * 4 + 1] << 16) |
-		(block_[i * 4 + 2] << 8) | (block_[i * 4 + 3] << 0);
+				  (block_[i * 4 + 2] <<  8) | (block_[i * 4 + 3] <<  0);
 
 	for (int i = 16; i < 80; ++i)
 		word[i] = rotl((word[i - 3] ^ word[i - 8] ^ word[i - 14] ^ word[i - 16]), 1);
