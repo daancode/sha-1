@@ -8,5 +8,4 @@ int main()
 {
 	string text = "test message";
 	cout << "SHA-1('" << text << "') : " << SHA1(text).generate() << endl;
-	cin.get();
 }
