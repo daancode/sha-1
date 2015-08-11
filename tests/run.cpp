@@ -24,6 +24,4 @@ int main()
 	test("12JW42yxM4", "770e664689231dccc1601732079572d1ae4f4af3");
 	test("&|WC){Cc;q91(&exE8y.SP[7uZ0nZ)", "b03a57599efce5a004396c7fccb0b9d11c4bb5ac");
 	test("#1BtyDG(bkoQBd9p:5.y]b.V-D'+>5", "e9d0fb640509c415546a4a2cad96357d353a921a");
-
-	cin.get();
 }
