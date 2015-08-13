@@ -1,5 +1,5 @@
 /*
-	Copyright (c) 2015, Damian Barczynski <daan.net@wp.eu> All rights reserved.
+	Copyright (c) 2015, Damian Barczynski <daan.net@wp.eu>
 
 	Permission to use, copy, modify, and/or distribute this software for any purpose
 	with or without fee is hereby granted, provided that the above copyright notice

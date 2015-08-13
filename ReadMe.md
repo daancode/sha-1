@@ -1,5 +1,5 @@
 ## SHA-1 [![Build Status](https://travis-ci.org/da-an/SHA-1.svg?branch=master)](https://travis-ci.org/da-an/SHA-1)
-Secure hash algorithm class written in C++ programming language. </br>
+Secure hash algorithm 1 class written in C++ programming language.
  - requires compiler support for C++11
 
 #### Usage example
@@ -7,17 +7,16 @@ Secure hash algorithm class written in C++ programming language. </br>
 #include <iostream>
 #include "source\SHA1.hpp"
 
-// SHA1(string).generate() - return hash value as string
-
 int main()
 {
-	std::cout << SHA1("example string").generate() << std::endl;
+	std::string hash = SHA1("example string").generate();
+	std::cout << hash << std::endl;
 	std::cin.get();
 }
 ```
 #### License
 ```
-Copyright (c) 2015, Damian Barczyński <daan.net@wp.eu> All rights reserved.
+Copyright (c) 2015, Damian Barczyński <daan.net@wp.eu>
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
