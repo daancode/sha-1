@@ -1,4 +1,4 @@
-## SHA-1 [![Build Status](https://travis-ci.org/da-an/sha-1.svg?branch=master)](https://travis-ci.org/da-an/SHA-1)
+## SHA-1 [![Build Status](https://travis-ci.org/daancode/sha-1.svg?branch=master)](https://travis-ci.org/da-an/SHA-1)
 Secure hash algorithm 1 class written in C++ programming language.
  - requires compiler support for C++11
 
